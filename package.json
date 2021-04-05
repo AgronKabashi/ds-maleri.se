@@ -1,0 +1,13 @@
+{
+  "name": "ds-maleri.se",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "eleventy --output=docs"
+  },
+  "author": "Agron Kabashi",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4"
+  }
+}

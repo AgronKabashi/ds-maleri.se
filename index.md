@@ -232,7 +232,7 @@ title: Introduction
           data-wow-duration="1s"
           data-wow-delay="0.8s"
         >
-          <img alt="" height="500px" src="assets/images/pexels-haley-black-2087320.jpg">
+          <img alt="" height="400px" src="assets/images/pexels-haley-black-2087320.jpg">
         </div>
       </div>
     </div>

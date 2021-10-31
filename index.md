@@ -183,7 +183,7 @@ title: Introduction
         >
           <div id="services-slideshow">
             <img alt="" src="assets/images/services/01.jpeg" />
-            <img alt="" data-lazy="/assets/images/services/02.jpeg" />
+            <img alt="" data-lazy="assets/images/services/02.jpeg" />
             <img alt="" data-lazy="assets/images/services/03.jpeg" />
             <img alt="" data-lazy="assets/images/services/04.jpeg" />
             <img alt="" data-lazy="assets/images/services/05.jpeg" />

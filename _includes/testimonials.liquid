@@ -1,0 +1,14 @@
+{%- for testimonial in collections.testimonials -%}
+<div class="col-lg-6 col-xl-4">
+  <div class="single-testimonial">
+    <div class="testimonial-text">
+      <p class="text">{{testimonial.templateContent}}</p>
+    </div>
+    <div class="testimonial-author d-flex align-items-center">
+      <div class="author-content media-body">
+        <h6 class="holder-name">{{testimonial.data.name}}</h6>
+      </div>
+    </div>
+  </div>
+</div>
+{%- endfor -%}

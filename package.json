@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "prebuild": "rm -rf docs",
     "build": "eleventy --output=docs"
   },
   "author": "Agron Kabashi",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4"
+    "@11ty/eleventy": "^0.12.1",
+    "critical": "^3.0.1",
+    "html-minifier": "^4.0.0",
+    "purify-css": "^1.2.5"
   }
 }

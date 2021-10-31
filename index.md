@@ -1,17 +1,16 @@
 ---
 layout: page.liquid
 title: Introduction
-sort: 1
 ---
 
-<section id="features" class="services-area pt-120">
+<section id="services" class="services-area pt-120">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-10">
         <div class="section-title text-center pb-40">
           <div class="line m-auto"></div>
           <h3 class="title">
-            <span>Välkommen till oss på D&S Måleri!</span> Vi är ett
+            <span>Välkommen till oss på D&S Måleri!</span> Vi är ett förstklassigt
             måleriföretag med anor.
           </h3>
         </div>
@@ -40,8 +39,7 @@ sort: 1
           <div class="services-content mt-30">
             <h4 class="services-title">Professionella</h4>
             <p class="text">
-              Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam
-              nonu eirmod tempor invidunt labore.
+              Vi är stolta över att kunna säga att vi utför våra jobb enligt fackmässig skicklighet och precision.
             </p>
           </div>
         </div>
@@ -106,7 +104,7 @@ sort: 1
   </div>
 </section>
 
-<section id="about" class="about-area pt-70">
+<section id="about" class="about-area pt-60">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -122,9 +120,7 @@ sort: 1
             </h3>
           </div>
           <p class="text">
-            D&S Måleri är ett komplett måleriföretag med anor som startade redan
-            2006. Grundaren Erik har över 20 års erfarenhet av att jobba i
-            måleribranchen.
+            Måleri är ett hantverk som vi har lång erfarenhet av. Vi värderar förarbetet vid varje målningsuppdrag eftersom det ger oss en bra grund för målningen. På D&amp;S Måleri målar vi alltid med noggrannhet för att ditt resultat ska bli av hög kvalité. Vår målarfirma hjälper gärna dig med färgval och kulör som kan passa i ditt hem i Malmö. Eftersom det finns många färgnyanser att välja mellan så kan vi hjälpa dig att välja rätt. Som kund hos oss får du goda råd men vi lyssnar alltid till dina önskemål. Om du söker professionella målare inför ditt nästa renoveringsprojekt så finns vi på D&S Måleri nära dig i Malmö!
           </p>
         </div>
       </div>
@@ -144,7 +140,7 @@ sort: 1
   </div>
 </section>
 
-<section class="about-area pt-70">
+<section class="about-area pt-60">
   <div class="about-shape-2">
     <img src="assets/images/about-shape-2.svg" alt="shape" />
   </div>
@@ -162,10 +158,21 @@ sort: 1
           </div>
           <p class="text">
             Vi utför målningsarbeten både invändigt som utvändigt. Vi utför även
-            renoveringar samt tapetsering invändigt. För en fullständig lista
-            över alla våra tjänster, se nedan.
+            renoveringar samt tapetsering invändigt. Nedan finner ni en del av tjänsterna som vi erbjuder, för en fullständig lista vänligen kontakta oss.
           </p>
-          <a href="#" class="main-btn">Se hela vårt tjänsteutud</a>
+          <ul id="service-list">
+            <li>Invändig målning</li>
+            <li>Utvändig målning</li>
+            <li>Trappuppgångar</li>
+            <li>Tapetsering</li>
+            <li>Fönsterrenovering</li>
+            <li>Nybyggnadsmålning</li>
+            <li>Ombyggnadsmålning</li>
+            <li>Underhållsmålning</li>
+            <li>Sprutspackling</li>
+            <li>Sprutmålning</li>
+            <li>med mera.</li>
+          </ul>
         </div>
       </div>
       <div class="col-lg-6 order-lg-first">
@@ -174,14 +181,65 @@ sort: 1
           data-wow-duration="1s"
           data-wow-delay="0.5s"
         >
-          <img src="assets/images/about1.svg" alt="about" />
+          <div id="services-slideshow">
+            <img alt="" src="assets/images/services/01.jpeg" />
+            <img alt="" data-lazy="/assets/images/services/02.jpeg" />
+            <img alt="" data-lazy="assets/images/services/03.jpeg" />
+            <img alt="" data-lazy="assets/images/services/04.jpeg" />
+            <img alt="" data-lazy="assets/images/services/05.jpeg" />
+            <img alt="" data-lazy="assets/images/services/06.jpeg" />
+            <img alt="" data-lazy="assets/images/services/07.jpeg" />
+            <img alt="" data-lazy="assets/images/services/08.jpeg" />
+            <img alt="" data-lazy="assets/images/services/09.jpeg" />
+            <img alt="" data-lazy="assets/images/services/10.jpeg" />
+            <img alt="" data-lazy="assets/images/services/11.jpeg" />
+            <img alt="" data-lazy="assets/images/services/12.jpeg" />
+            <img alt="" data-lazy="assets/images/services/13.jpeg" />
+            <img alt="" data-lazy="assets/images/services/14.jpeg" />
+            <img alt="" data-lazy="assets/images/services/15.jpeg" />
+            <img alt="" data-lazy="assets/images/services/16.jpeg" />
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="about-area pt-70">
+<section class="about-area pt-60">
+  <div class="about-shape-2">
+    <img src="assets/images/about-shape-2.svg" alt="shape" />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div
+          class="about-content mt-50 wow fadeInLeftBig"
+          data-wow-duration="1s"
+          data-wow-delay="0.5s"
+        >
+          <div class="section-title">
+            <div class="line"></div>
+            <h3 class="title">Fönsterrenovering<span> i Malmö</span></h3>
+          </div>
+          <p class="text">
+            En fönsterrenovering kan behövas när dina fönstren har börjat bli gamla, slitna eller trasiga. Nya fönster är ett effektivt sätt att skapa ett helt nytt intryck av ditt hem. En fönsterrenovering är en god investering eftersom den minskar dina uppvärmningskostnader från dag ett. Om du vill göra en fönsterrenovering i Malmö så kan vi på D&S Måleri hjälpa dig. Vi har många års erfarenhet av renoveringsprojekt, både stora och små. Under din fönsterrenovering fokuserar vi helhjärtat på dina fönster för att se till att resultatet blir så bra som möjligt. Efter många renoveringar av fönster i olika storlekar och skick har vi all kompetens som kan behövas för att ta oss an din fönsterrenovering i Malmö. Om du vill ha hjälp med din fönsterrenovering så är du välkommen att kontakta oss i Malmö. Vi hjälper dig med hela renoveringen, från början till slut.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div
+          class="about-image text-center mt-50 wow fadeInRightBig"
+          data-wow-duration="1s"
+          data-wow-delay="0.8s"
+        >
+          <img alt="" height="500px" src="assets/images/pexels-haley-black-2087320.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-area pt-60">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -197,18 +255,17 @@ sort: 1
           <p class="text">
             Våra kunder består av fastighetsägare, bostadsrättsföreningar,
             kommuner, industrier samt privatpersoner så vi tar oss an stora som
-            små objekt.
+            små objekt. Vi tar oss an alla målningsuppdrag med samma engagemang och energi.
           </p>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 order-lg-first">
         <div
           class="about-image text-center mt-50 wow fadeInRightBig"
           data-wow-duration="1s"
           data-wow-delay="0.5s"
         >
-          <img src="assets/images/about1.svg" alt="about" />
-        </div>
+        <img alt="" width="300px" src="assets/images/building.svg">
       </div>
     </div>
   </div>
@@ -223,7 +280,7 @@ sort: 1
       <div class="col-lg-5">
         <div class="section-title text-center pb-40">
           <div class="line m-auto"></div>
-          <h3 class="title">Det här har våra kunder att säga om oss</h3>
+          <h3 class="title">Det här har några av våra kunder att säga om oss</h3>
         </div>
       </div>
     </div>
@@ -232,57 +289,7 @@ sort: 1
       data-wow-duration="1s"
       data-wow-delay="0.8s"
     >
-      <div class="col-lg-4">
-        <div class="single-testimonial">
-          <div class="testimonial-text">
-            <p class="text">
-              Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
-              seddiam nonu eirmod tempor invidunt labore.Lorem ipsum dolor
-              sit amet,consetetur sadipscing elitr, seddiam nonu.
-            </p>
-          </div>
-          <div class="testimonial-author d-flex align-items-center">
-            <div class="author-content media-body">
-              <h6 class="holder-name">Namn</h6>
-              <p class="text">Företag</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="single-testimonial">
-          <div class="testimonial-text">
-            <p class="text">
-              Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
-              seddiam nonu eirmod tempor invidunt labore.Lorem ipsum dolor
-              sit amet,consetetur sadipscing elitr, seddiam nonu.
-            </p>
-          </div>
-          <div class="testimonial-author d-flex align-items-center">
-            <div class="author-content media-body">
-              <h6 class="holder-name">Namn</h6>
-              <p class="text">Företag</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="single-testimonial">
-          <div class="testimonial-text">
-            <p class="text">
-              Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
-              seddiam nonu eirmod tempor invidunt labore.Lorem ipsum dolor
-              sit amet,consetetur sadipscing elitr, seddiam nonu.
-            </p>
-          </div>
-          <div class="testimonial-author d-flex align-items-center">
-            <div class="author-content media-body">
-              <h6 class="holder-name">Namn</h6>
-              <p class="text">Företag</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      {% include testimonials.liquid %}
     </div>
   </div>
 </section>

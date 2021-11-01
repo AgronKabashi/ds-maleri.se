@@ -48,6 +48,8 @@
     slidesToScroll: 1,
     lazyLoad: "progressive",
   });
+
+  $("#request-form").attr("action", "mailto:info@ds-maleri.se");
 })();
 
 function closeNavbar() {

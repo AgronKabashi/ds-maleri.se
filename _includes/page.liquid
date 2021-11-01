@@ -33,25 +33,13 @@ layout: main-layout.liquid
               >
                 <ul id="nav" class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a
-                      class="page-scroll"
-                      onclick="closeNavbar()"
-                      href="#services"
-                      >Tjänster</a
-                    >
+                    <a class="page-scroll" href="#services">Tjänster</a>
                   </li>
                   <li class="nav-item">
-                    <a class="page-scroll" onclick="closeNavbar()" href="#about"
-                      >Om oss</a
-                    >
+                    <a class="page-scroll" href="#about">Om oss</a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      class="page-scroll"
-                      onclick="closeNavbar()"
-                      href="#footer"
-                      >Kontakta oss</a
-                    >
+                    <a class="page-scroll" href="#footer">Kontakta oss</a>
                   </li>
                 </ul>
               </div>
@@ -84,30 +72,35 @@ layout: main-layout.liquid
 <footer id="footer" class="footer-area pt-120">
   <div class="container">
     <div class="subscribe-area">
-      <form id="request-form" action="mailto:info@ds-maleri.se" target="_blank">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="subscribe-content mt-45">
-              <h2 class="subscribe-title">
-                Maila oss <span>om era behov</span>
-              </h2>
-            </div>
-          </div>
-          <div class="col-lg-12">
-            <div class="subscribe-form mt-50">
-              <textarea
-                required
-                aria-required="true"
-                name="body"
-                placeholder="Ställ din fråga / beskriv dina önskemål"
-              ></textarea>
-            </div>
-            <div class="subscribe-form mt-10">
-              <button class="main-btn">Skicka</button>
-            </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="subscribe-content mt-45">
+            <h2 class="subscribe-title">Maila oss <span>om era behov</span></h2>
           </div>
         </div>
-      </form>
+        <div class="col-lg-12">
+          <div class="subscribe-form mt-50">
+            <textarea
+              id="request-form-body"
+              required
+              aria-required="true"
+              name="body"
+              placeholder="Ställ din fråga / beskriv dina önskemål"
+            ></textarea>
+          </div>
+          <div class="subscribe-form mt-10">
+            <a
+              id="request-form-link"
+              role="button"
+              class="main-btn"
+              target="_top"
+              href="mailto:info@ds-maleri.se"
+            >
+              Skicka
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="footer-widget pb-100">
       <div class="row">

@@ -48,8 +48,28 @@
     slidesToScroll: 1,
     lazyLoad: "progressive",
   });
-})();
 
-function closeNavbar() {
-  document.getElementById("menu-toggle").checked = false;
-}
+  const formLink = $("#request-form-link");
+  const formBody = $("#request-form-body");
+  const menuToggle = $("#menu-toggle");
+  const subject = encodeURIComponent("Jag är intresserad av att veta mer!");
+
+  $("#nav a").click(() => {
+    menuToggle.prop("checked", false);
+  });
+
+  $("#request-form-link").click((event) => {
+    if (formBody.val().length === 0) {
+      event.preventDefault();
+    }
+  });
+
+  formBody.on("input", (event) => {
+    const body = encodeURIComponent(event.currentTarget.value);
+
+    formLink.attr(
+      "href",
+      "mailto:info@ds-maleri.se?subject=" + subject + "&body=" + body
+    );
+  });
+})();

@@ -1740,7 +1740,7 @@ a:target {
   outline-color: #007bff;
 }
 
-.subscribe-form button {
+.subscribe-form .main-btn {
   position: absolute;
   top: 0;
   right: 0;
@@ -1758,7 +1758,7 @@ a:target {
   background-size: 200%;
 }
 @media (max-width: 767px) {
-  .subscribe-form button {
+  .subscribe-form .main-btn {
     position: relative;
     width: 100%;
     margin-top: 10px;
@@ -1769,17 +1769,8 @@ a:target {
     height: 120px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .subscribe-form button {
-    position: absolute;
-    width: auto;
-    margin-top: 0;
-    border-radius: 0;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-}
-.subscribe-form button:hover {
+
+.subscribe-form .main-btn:hover {
   color: #fff;
 }
 
